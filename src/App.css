@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  margin: 0 5px;
   padding: 0;
   box-sizing: border-box;
   font-family: "Reem Kufi", sans-serif !important;
@@ -65,7 +65,7 @@ nav {
   display: flex;
   padding-top: 3rem;
 }
-.home-bannerImage-container {
+.home-bannerImage-container{
   position: absolute;
   top: -100px;
   right: -170px;
