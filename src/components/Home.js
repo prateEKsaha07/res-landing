@@ -1,7 +1,8 @@
 import React from 'react'
 import Navbar from './Navbar';
 import bannerImage from "../Assets/home-banner-background.png";
-import { BsArrow90DegRight } from 'react-icons/bs';
+import bannerbackground from "../Assets/home-banner-image.png";
+import { BsFillArrowRightCircleFill } from 'react-icons/bs';
 
 const Home = () => {
   return ( <div className="home-container">
@@ -15,10 +16,13 @@ const Home = () => {
               your food delivered hot and fresh
             </h1>
             <p className="primary-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio maiores ipsam praesentium aliquid rerum explicabo pariatur accusantium ex eum neque quidem odit nobis, quas nemo cupiditate accusamus error? Non, vel.
+            Fresh food, vibrant and unprocessed, epitomizes nature's bounty. From crisp vegetables to succulent fruits, it offers an array of flavors and nutrients. With its immediate connection to the earth, fresh food invigorates both body and soul.
             </p>
             <button className="secondary-button">
-              ORDER NOW <BsArrow90DegRight /> </button>
+              ORDER NOW <BsFillArrowRightCircleFill /> </button>
+          </div>
+          <div className="home-image-section">
+            <img src={bannerbackground} alt="" />
           </div>
         </div>
     </div>
